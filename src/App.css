@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  /* background-color: rgb(255, 204, 255); */
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+}
+
+.container-hex {
+  justify-content: center;
+  border: 2px solid black;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none !important;
+}
